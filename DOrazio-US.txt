@@ -1,0 +1,5 @@
+• As a citizen, I want to join an active event, so that I can collaborate with volunteers to solve a
+reported problem.
+• As a citizen, I want to see the events I joined, so that I can remember where and when is the event.
+• As a citizen, I want to vote for a problem, so that I can report to the company which problem needs
+to be fixed as soon as possible
