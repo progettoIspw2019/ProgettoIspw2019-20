@@ -1,0 +1,9 @@
+1)The system shall receive reports from
+users and store them in the database.
+
+2)The system shall use GPS to show the
+position of the citizen on the map.
+
+3)The system shall provide the ability for
+users to upload pictures of an event they
+joined in.
