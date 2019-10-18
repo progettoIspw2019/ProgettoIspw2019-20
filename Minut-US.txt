@@ -1,0 +1,3 @@
+1.As a citizen, I want to see the reports in zone, so that I can be informed about any issues in my city.
+2.As a citizen, I want to report a problem to the community, so that a group of volunteers can solve it.
+3.As a citizen, I want to report a problem to the company involved, so that they work on it.

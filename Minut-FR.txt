@@ -1,0 +1,3 @@
+1.The system shall provide Citizen users* the ability to report a problem, requiring a position on the map of where the problem is located, a category and an optional description of the problem.
+2.The system shall provide an upvote* system which will showcase Company Reports*, by ordering them based on the number of upvotes*, to Company users*.
+3.The system shall provide a vote function for Citizen users* by displaying a vote button for Company Reports*.
