@@ -7,7 +7,7 @@ addons:
  sonarcloud:
   organization: "progettoispw2019"
   token:
-   secure: 8863f88d700d966cc8496b48d771497d3001293a
+   secure: "59ba73dfac00f78b7af5d15311ebd38794e0dcb5"
 
 script: 
 - ant build
