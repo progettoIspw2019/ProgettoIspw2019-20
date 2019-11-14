@@ -59,7 +59,7 @@
     <target depends="init" name="build-project">
         <echo message="${ant.project.name}: ${ant.file}"/>
         <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
-            <src path="FixMyCity/src"/>
+            <src path="src"/>
             <classpath refid="FixMyCity.classpath"/>
         </javac>
     </target>
