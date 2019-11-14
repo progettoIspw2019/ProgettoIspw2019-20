@@ -1,0 +1,14 @@
+dist: trusty
+language: java
+jdk:
+ - oraclejdk13
+
+addons:
+ sonarcloud:
+  organization: "progettoIspw2019"
+  token:
+   secure: 074f0f31117f75cd043fb5493003dae817fde609
+
+script: 
+- ant build
+
