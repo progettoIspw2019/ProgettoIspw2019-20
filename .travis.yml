@@ -5,9 +5,9 @@ jdk:
 
 addons:
  sonarcloud:
-  organization: "progettoIspw2019"
+  organization: "progettoispw2019"
   token:
-   secure: 074f0f31117f75cd043fb5493003dae817fde609
+   secure: 8863f88d700d966cc8496b48d771497d3001293a
 
 script: 
 - ant build
