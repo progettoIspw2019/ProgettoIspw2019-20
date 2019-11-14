@@ -10,4 +10,5 @@ addons:
    secure: 074f0f31117f75cd043fb5493003dae817fde609
 
 script: 
+- cd ./ProgettoIspw2019-20
 - ant build
