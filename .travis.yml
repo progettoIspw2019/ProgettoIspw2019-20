@@ -10,5 +10,5 @@ addons:
    secure: 074f0f31117f75cd043fb5493003dae817fde609
 
 script: 
-- ant build
+- ant build ./FixMyCity/build.xml
 
