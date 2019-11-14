@@ -11,36 +11,36 @@
     <property name="source" value="12"/>
     <path id="ProgettoIspw2019-20.classpath">
         <pathelement location="bin"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.base.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.controls.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.fxml.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.graphics.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.media.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.swing.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.web.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx-swt.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.base.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.controls.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.fxml.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.graphics.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.media.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.swing.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.web.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx-swt.jar"/>
     </path>
     <path id="run.App (2).classpath">
         <path refid="ProgettoIspw2019-20.classpath"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.base.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.controls.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.fxml.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.graphics.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.media.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.swing.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.web.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx-swt.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.base.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.controls.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.fxml.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.graphics.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.media.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.swing.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.web.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx-swt.jar"/>
     </path>
     <path id="run.JavaFx.classpath">
         <path refid="ProgettoIspw2019-20.classpath"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.base.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.controls.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.fxml.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.graphics.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.media.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.swing.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx.web.jar"/>
-        <pathelement location="../../../../javafx-sdk-13.0.1/lib/javafx-swt.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.base.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.controls.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.fxml.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.graphics.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.media.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.swing.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx.web.jar"/>
+        <pathelement location="javafx-sdk-13.0.1/lib/javafx-swt.jar"/>
     </path>
     <target name="init">
         <mkdir dir="bin"/>
@@ -85,7 +85,7 @@
     </target>
     <target name="JavaFx">
         <java classname="App" failonerror="true" fork="yes">
-            <jvmarg line="--module-path &quot;C:\javafx-sdk-13.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml"/>
+            <jvmarg line="--module-path &quot;C:\Users\adria\eclipse-workspace\ProgettoIspw2019-20\javafx-sdk-13.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml"/>
             <classpath refid="run.JavaFx.classpath"/>
         </java>
     </target>
